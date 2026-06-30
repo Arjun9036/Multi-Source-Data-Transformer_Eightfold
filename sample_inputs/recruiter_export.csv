@@ -1,0 +1,5 @@
+full_name,email,phone,current_company,title,location,linkedin,github,skills,years_experience
+"Jordan Lee","jordan.lee@email.com","+1 (415) 555-0192","Stripe","Senior Software Engineer","San Francisco, CA, US","https://linkedin.com/in/jordanlee","https://github.com/jordanlee","Python, Go, Kubernetes, PostgreSQL, React",7
+"Jordan Lee","jordan@stripe.com","415-555-0192","Stripe Inc","Sr. SWE","San Francisco","linkedin.com/in/jordanlee","github.com/jordanlee","Python,Golang,K8s,Postgres",
+"Maria Garcia","maria.garcia@gmail.com","(212) 555-0134","Google","ML Engineer","New York, NY, US","https://linkedin.com/in/mariagarcia","","Python, TensorFlow, PyTorch, scikit-learn, SQL",5
+"Bob Smith","","","","",,,,""

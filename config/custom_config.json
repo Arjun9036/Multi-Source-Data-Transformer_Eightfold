@@ -1,0 +1,14 @@
+{
+  "fields": [
+    { "path": "full_name", "type": "string", "required": true },
+    { "path": "primary_email", "from": "emails[0]", "type": "string", "required": true },
+    { "path": "phone", "from": "phones[0]", "type": "string", "normalize": "E164" },
+    { "path": "skills_list", "from": "skills[].name", "type": "string[]", "normalize": "canonical" },
+    { "path": "github_url", "from": "links.github", "type": "string" },
+    { "path": "headline", "type": "string" },
+    { "path": "current_company", "from": "experience[0].company", "type": "string" },
+    { "path": "current_title", "from": "experience[0].title", "type": "string" }
+  ],
+  "include_confidence": false,
+  "on_missing": "null"
+}

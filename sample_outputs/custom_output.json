@@ -1,0 +1,26 @@
+{
+  "full_name": "Maria Garcia",
+  "primary_email": "jordan.lee@email.com",
+  "phone": "+14155550192",
+  "skills_list": [
+    "Python",
+    "Go",
+    "Kubernetes",
+    "PostgreSQL",
+    "React",
+    "TensorFlow",
+    "PyTorch",
+    "scikit-learn",
+    "SQL",
+    "Distributed Systems",
+    "Payments Infrastructure",
+    "And Developer Tooling",
+    "Backend Engineering",
+    "Docker",
+    "AWS"
+  ],
+  "github_url": "https://github.com/jordanlee",
+  "headline": "Backend engineer with 7+ years of experience in distributed systems, payments infrastructure, and developer tooling. Strong communicator and proven team lead.",
+  "current_company": null,
+  "current_title": null
+}

@@ -1,0 +1,22 @@
+Candidate: Jordan Lee
+
+Summary: Backend engineer with 7+ years of experience in distributed systems, payments infrastructure, and developer tooling. Strong communicator and proven team lead.
+
+Notes from recruiter call on 2024-01-15:
+
+Jordan has 7+ years of experience in backend engineering, primarily in distributed systems and payments infrastructure.
+Currently at Stripe as a Senior Software Engineer, managing a team of 4.
+
+Skills: Python, Go, Kubernetes, PostgreSQL, React, Docker, AWS
+
+Strong communicator, mentioned interest in staff-level roles.
+Previously at Dropbox as a Software Engineer from 2017 to 2020.
+
+Contact: jordan.lee@email.com | Phone: +1 (415) 555-0192
+LinkedIn: linkedin.com/in/jordanlee
+GitHub: github.com/jordanlee
+
+Location: San Francisco, open to remote
+Salary expectation: $250k-280k total comp
+Available: 3 months notice
+Referral from: Sarah Kim (Engineering Manager at Stripe)

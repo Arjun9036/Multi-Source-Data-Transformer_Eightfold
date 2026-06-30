@@ -1,0 +1,84 @@
+{
+  "candidates": [
+    {
+      "applicant_name": "Jordan Lee",
+      "applicant_email": "jordan.lee@email.com",
+      "applicant_phone": "4155550192",
+      "current_title": "Senior Software Engineer",
+      "current_employer": "Stripe",
+      "candidate": {
+        "location": "San Francisco, California, US"
+      },
+      "social_profiles": {
+        "linkedin": "https://linkedin.com/in/jordanlee",
+        "github": "https://github.com/jordanlee"
+      },
+      "skill_tags": ["Python", "Go", "Kubernetes", "PostgreSQL", "React", "Docker", "AWS"],
+      "experience_years": 7,
+      "work_history": [
+        {
+          "company": "Stripe",
+          "title": "Senior Software Engineer",
+          "start_date": "2020-03",
+          "end_date": null,
+          "description": "Led backend architecture for Stripe Billing. Scaled payment processing to 1M+ transactions/day."
+        },
+        {
+          "company": "Dropbox",
+          "title": "Software Engineer",
+          "start_date": "2017-06",
+          "end_date": "2020-02",
+          "description": "Built file sync infrastructure in Go. Reduced sync latency by 40%."
+        }
+      ],
+      "education_history": [
+        {
+          "school": "Carnegie Mellon University",
+          "degree": "B.S. Computer Science",
+          "field_of_study": "Computer Science",
+          "graduation_year": 2017
+        }
+      ],
+      "headline": "Backend engineer passionate about distributed systems and developer tooling."
+    },
+    {
+      "applicant_name": "Maria Garcia",
+      "applicant_email": "maria.garcia@gmail.com",
+      "applicant_phone": "+12125550134",
+      "current_title": "ML Engineer",
+      "current_employer": "Google",
+      "candidate": {
+        "location": "New York, NY, US"
+      },
+      "social_profiles": {
+        "linkedin": "https://linkedin.com/in/mariagarcia"
+      },
+      "skill_tags": ["Python", "TensorFlow", "PyTorch", "scikit-learn", "SQL", "BigQuery", "Spark"],
+      "experience_years": 5,
+      "work_history": [
+        {
+          "company": "Google",
+          "title": "ML Engineer",
+          "start_date": "2021-01",
+          "description": "Working on Search ranking models using large-scale distributed training."
+        },
+        {
+          "company": "Twitter",
+          "title": "Data Scientist",
+          "start_date": "2019-06",
+          "end_date": "2020-12",
+          "description": "Built recommendation algorithms for the timeline. A/B tested feed ranking features."
+        }
+      ],
+      "education_history": [
+        {
+          "school": "Stanford University",
+          "degree": "M.S. Computer Science",
+          "field_of_study": "Machine Learning",
+          "graduation_year": 2019
+        }
+      ],
+      "headline": "Machine Learning Engineer with a focus on large-scale recommendation systems."
+    }
+  ]
+}

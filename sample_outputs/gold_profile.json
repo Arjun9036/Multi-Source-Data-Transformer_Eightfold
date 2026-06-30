@@ -1,0 +1,188 @@
+{
+  "candidate_id": "cand_f34ebd21e6da",
+  "full_name": "Maria Garcia",
+  "emails": [
+    "jordan.lee@email.com",
+    "jordan@stripe.com",
+    "maria.garcia@gmail.com"
+  ],
+  "phones": [
+    "+14155550192",
+    "+12125550134"
+  ],
+  "location": {
+    "city": "San Francisco",
+    "region": "CA",
+    "country": "US"
+  },
+  "links": {
+    "linkedin": "https://linkedin.com/in/mariagarcia",
+    "github": "https://github.com/jordanlee",
+    "portfolio": null,
+    "other": []
+  },
+  "headline": "Backend engineer with 7+ years of experience in distributed systems, payments infrastructure, and developer tooling. Strong communicator and proven team lead.",
+  "years_experience": 7.0,
+  "skills": [
+    {
+      "name": "Python",
+      "confidence": 0.932,
+      "sources": [
+        "csv",
+        "txt"
+      ]
+    },
+    {
+      "name": "Go",
+      "confidence": 0.932,
+      "sources": [
+        "csv",
+        "txt"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "confidence": 0.932,
+      "sources": [
+        "csv",
+        "txt"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "confidence": 0.932,
+      "sources": [
+        "csv",
+        "txt"
+      ]
+    },
+    {
+      "name": "React",
+      "confidence": 0.932,
+      "sources": [
+        "csv",
+        "txt"
+      ]
+    },
+    {
+      "name": "TensorFlow",
+      "confidence": 0.85,
+      "sources": [
+        "csv"
+      ]
+    },
+    {
+      "name": "PyTorch",
+      "confidence": 0.85,
+      "sources": [
+        "csv"
+      ]
+    },
+    {
+      "name": "scikit-learn",
+      "confidence": 0.85,
+      "sources": [
+        "csv"
+      ]
+    },
+    {
+      "name": "SQL",
+      "confidence": 0.85,
+      "sources": [
+        "csv"
+      ]
+    },
+    {
+      "name": "Distributed Systems",
+      "confidence": 0.55,
+      "sources": [
+        "txt"
+      ]
+    },
+    {
+      "name": "Payments Infrastructure",
+      "confidence": 0.55,
+      "sources": [
+        "txt"
+      ]
+    },
+    {
+      "name": "And Developer Tooling",
+      "confidence": 0.55,
+      "sources": [
+        "txt"
+      ]
+    },
+    {
+      "name": "Backend Engineering",
+      "confidence": 0.55,
+      "sources": [
+        "txt"
+      ]
+    },
+    {
+      "name": "Docker",
+      "confidence": 0.55,
+      "sources": [
+        "txt"
+      ]
+    },
+    {
+      "name": "AWS",
+      "confidence": 0.55,
+      "sources": [
+        "txt"
+      ]
+    }
+  ],
+  "experience": [],
+  "education": [],
+  "_confidence": 0.761,
+  "_provenance": [
+    {
+      "field": "full_name",
+      "source": "csv",
+      "method": "source_priority"
+    },
+    {
+      "field": "headline",
+      "source": "txt",
+      "method": "source_priority"
+    },
+    {
+      "field": "years_experience",
+      "source": "csv",
+      "method": "source_priority"
+    },
+    {
+      "field": "emails",
+      "source": "csv",
+      "method": "union_dedup"
+    },
+    {
+      "field": "phones",
+      "source": "csv",
+      "method": "normalize_e164+union"
+    },
+    {
+      "field": "location",
+      "source": "csv",
+      "method": "parse_location_string"
+    },
+    {
+      "field": "links.linkedin",
+      "source": "csv",
+      "method": "source_priority"
+    },
+    {
+      "field": "links.github",
+      "source": "csv",
+      "method": "source_priority"
+    },
+    {
+      "field": "skills",
+      "source": "multiple",
+      "method": "union_canonical_fuzzy"
+    }
+  ]
+}
