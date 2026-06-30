@@ -53,22 +53,31 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 python3 -m pip install -r requirements.txt
 ```
 
-## Running the API Server (FastAPI)
+## 💻 How to Run (Web UI / Swagger)
 
-The project includes a FastAPI backend with interactive Swagger UI documentation.
+The easiest way to use the pipeline is through the built-in FastAPI interactive UI.
 
-```bash
-# Make sure your virtual environment is active
-source venv/bin/activate
+1. **Start the Server**
+   ```bash
+   # Make sure your virtual environment is active
+   source venv/bin/activate
+   
+   # Run the server
+   python3 api.py
+   ```
 
-# Start the server
-python3 api.py
-```
+2. **Open the UI**
+   - Go to **[http://localhost:8000/docs](http://localhost:8000/docs)** in your browser.
 
-Then open **http://localhost:8000/docs** in your browser to access the Swagger UI.
+3. **Run a Normalization**
+   - Click on the green `POST /normalize` row.
+   - Click **Try it out** on the right side.
+   - Next to `file`, click **Choose File** and upload any resume (PDF), Recruiter CSV, Notes TXT, or ATS JSON.
+   - Select the `config_name` you want to use (`default` for full output, `custom` for a modified schema).
+   - Click the big blue **Execute** button.
+   - Scroll down to see your canonical JSON profile under "Server response"!
 
-- **`POST /normalize`**: Upload a candidate file (CSV, PDF, JSON, TXT), select a config, and get back the canonical profile.
-- **`GET /sample`**: Zero-click demo that runs the pipeline on built-in sample files.
+*(There's also a `GET /sample` endpoint that runs a zero-click demo on the built-in sample files.)*
 
 ## How to Run (CLI)
 
